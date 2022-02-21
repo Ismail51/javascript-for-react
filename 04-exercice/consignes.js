@@ -4,3 +4,8 @@
 
 // Write your code here
 
+function affichage(prenom){
+    console.log("bonjour "+ prenom)
+
+}
+affichage("prenom")
