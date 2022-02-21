@@ -13,8 +13,8 @@
 let prompt = require("prompt");
 
 prompt.start();  
-
 prompt.get("pouces",function(err,result){
         console.log(result);
         console.log(result.pouces * 2.54)
 })
+

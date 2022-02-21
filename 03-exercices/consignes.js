@@ -3,3 +3,9 @@
  */
 
 // Write your code here
+
+function affichage(){
+let word = "hello world"
+console.log(word)
+}
+affichage()
