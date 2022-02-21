@@ -10,3 +10,12 @@
 
 // Write your code here
 
+let prompt = require("prompt");
+prompt.start();  
+
+prompt.get("heures", function(err,result){
+        let data = result.heures.split("h");
+        let heures = parseInt(data[0] * 60 );
+        let minutes = parseInt(data[1]);
+        console.log(heures + minutes);
+})
